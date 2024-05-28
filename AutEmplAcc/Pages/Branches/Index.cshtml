@@ -1,0 +1,56 @@
+﻿@page
+@model AutEmplAcc.Pages.Bracnhes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Филиалы</h1>
+
+<p>
+    <a asp-page="Create">Создать новый филиал</a>
+</p>
+
+<div class="accordion" id="accordionExample">
+    @foreach (var branch in Model.Branch)
+    {
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-@branch.Id">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-@branch.Id" aria-expanded="false" aria-controls="collapse-@branch.Id">
+                    @branch.Name
+                </button>
+            </h2>
+            <div id="collapse-@branch.Id" class="accordion-collapse collapse" aria-labelledby="heading-@branch.Id" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p><strong>Адрес:</strong> @branch.Address</p>
+                    <p><strong>Сотрудники:</strong></p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ФИО</th>
+                                <th>Должность</th>
+                                <th>Ставка</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var employee in branch.Employees)
+                            {
+                                <tr>
+                                    <td>@employee.Candidate.FullName</td>
+                                    <td>@employee.Position.Name</td>
+                                    <td>@employee.Rate</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <p>
+                        <a asp-page="/Employees/Create" asp-route-branchId="@branch.Id">Создать сотрудника в этом филиале</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<p>
+    <a asp-page="./AllBranchesExport" class="hidden-print">Экспортировать отчет по всем филиалам в Word</a>
+</p>

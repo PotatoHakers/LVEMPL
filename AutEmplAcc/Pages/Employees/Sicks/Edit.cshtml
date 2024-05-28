@@ -1,0 +1,50 @@
+﻿@page
+@model AutEmplAcc.Pages.Employees.Sicks.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>SickLeave</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SickLeave.SickLeaveId" />
+            <div class="form-group">
+                <label asp-for="SickLeave.EmployeeId" class="control-label"></label>
+                <select asp-for="SickLeave.EmployeeId" class="form-control" asp-items="ViewBag.EmployeeId"></select>
+                <span asp-validation-for="SickLeave.EmployeeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SickLeave.StartDate" class="control-label"></label>
+                <input asp-for="SickLeave.StartDate" class="form-control" />
+                <span asp-validation-for="SickLeave.StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SickLeave.EndDate" class="control-label"></label>
+                <input asp-for="SickLeave.EndDate" class="form-control" />
+                <span asp-validation-for="SickLeave.EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SickLeave.Diagnosis" class="control-label"></label>
+                <input asp-for="SickLeave.Diagnosis" class="form-control" />
+                <span asp-validation-for="SickLeave.Diagnosis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

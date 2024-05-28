@@ -1,0 +1,22 @@
+﻿@page
+@model AutEmplAcc.Pages.Sicks.ExportModel
+@{
+}
+
+<h1>Экспорт отчета в Word</h1>
+
+<dl class="row">
+    <dt class="col-sm-2">Сотрудник</dt>
+    <dd class="col-sm-10">@Model.SickLeave.Employee.Candidate.FirstName @Model.SickLeave.Employee.Candidate.LastName</dd>
+    <dt class="col-sm-2">Начало больничного</dt>
+    <dd class="col-sm-10">@Model.SickLeave.StartDate.ToShortDateString()</dd>
+    <dt class="col-sm-2">Конец больничного</dt>
+    <dd class="col-sm-10">@Model.SickLeave.EndDate.ToShortDateString()</dd>
+    <dt class="col-sm-2">Диагноз</dt>
+    <dd class="col-sm-10">@Model.SickLeave.Diagnosis</dd>
+</dl>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Экспортировать в Word</button>
+</form>

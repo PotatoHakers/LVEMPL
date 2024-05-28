@@ -1,0 +1,32 @@
+﻿@page
+@model AutEmplAcc.Pages.Employees.ExportModel
+@{
+}
+
+<h1>Экспорт отчета в Word</h1>
+
+<dl class="row">
+    <dt class="col-sm-2">Имя</dt>
+    <dd class="col-sm-10">@Model.Employee.Candidate.FirstName</dd>
+    <dt class="col-sm-2">Фамилия</dt>
+    <dd class="col-sm-10">@Model.Employee.Candidate.LastName</dd>
+    <dt class="col-sm-2">Отчество</dt>
+    <dd class="col-sm-10">@Model.Employee.Candidate.Patronymic</dd>
+    <dt class="col-sm-2">Филиал</dt>
+    <dd class="col-sm-10">@Model.Employee.Branch.Name</dd>
+    <dt class="col-sm-2">Должность</dt>
+    <dd class="col-sm-10">@Model.Employee.Position.Name</dd>
+    <dt class="col-sm-2">Дата приема на работу</dt>
+    <dd class="col-sm-10">@Model.Employee.HiringDate.ToShortDateString()</dd>
+    <dt class="col-sm-2">Ставка</dt>
+    <dd class="col-sm-10">@Model.Employee.Rate</dd>
+    <dt class="col-sm-2">Оклад</dt>
+    <dd class="col-sm-10">@Model.Employee.CalculateSalary()</dd>
+    <dt class="col-sm-2">Опыт работы</dt>
+    <dd class="col-sm-10">@Model.Employee.WorkExperience</dd>
+</dl>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Экспортировать в Word</button>
+</form>

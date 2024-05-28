@@ -1,0 +1,40 @@
+﻿@page
+@model AutEmplAcc.Pages.View.Positions.HiringPlan.IndexModel
+@{
+}
+<h1>Список планов набора</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Название должности</th>
+            <th>Ставка оплаты</th>
+            <th>Цель набора</th>
+            <th>Дата начала</th>
+            <th>Дата окончания</th>
+            <th>Отчет</th>
+            <th>Редактировать</th>
+            <th>Удалить</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var position in Model.Positions)
+        {
+            <tr>
+                <td>@position.Name</td>
+                <td>@position.HourlyRate</td>
+                <td>@position.HiringTarget</td>
+                <td>@position.HiringStartDate.ToShortDateString()</td>
+                <td>@position.HiringEndDate.ToShortDateString()</td>
+                <td><a asp-page="./Report" asp-route-id="@position.Id">Просмотреть отчет</a></td>
+                <td><a asp-page="./Edit" asp-route-id="@position.Id">Редактировать</a></td>
+                <td><a asp-page="./Delete" asp-route-id="@position.Id">Удалить</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create">Создать новый план</a>
+<p>
+    <a asp-page="./AllPositionsExport" class="hidden-print">Экспортировать отчет по всем должностям в Word</a>
+</p>

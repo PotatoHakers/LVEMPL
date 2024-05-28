@@ -1,0 +1,55 @@
+﻿@page
+@model AutEmplAcc.Pages.Candidates.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Список Кандидатов</h1>
+
+<p>
+    <a asp-page="Create">Создать нового кандидата</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Отчество</th>
+            <th>Дата рождения</th>
+            <th>Телефон</th>
+            <th>Адрес</th>
+            <th>Email</th>
+            <th>Гражданство</th>
+            <th>Служба</th>
+            <th>Военный билет</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Candidate)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Patronymic</td>
+                <td>@item.DateOfBirth.ToShortDateString()</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Address</td>
+                <td>@item.Email</td>
+                <td>@item.Citizenship</td>
+                <td>@(item.HasServed ? "Да" : "Нет")</td>
+                <td>@item.MilitaryTicketNumber</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Изменить</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Подробнее</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-page="./AllCandidatesExport" class="hidden-print">Экспортировать отчет по всем кандидатам в Word</a>
+</p>

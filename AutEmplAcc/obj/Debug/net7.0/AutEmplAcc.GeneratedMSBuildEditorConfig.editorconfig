@@ -1,0 +1,237 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AutEmplAcc
+build_property.RootNamespace = AutEmplAcc
+build_property.ProjectDir = A:\Diplom\AutEmplAcc\AutEmplAcc\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = A:\Diplom\AutEmplAcc\AutEmplAcc
+build_property._RazorSourceGeneratorDebug = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Branches/AllBranchesExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoZXNcQWxsQnJhbmNoZXNFeHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Branches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Branches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Branches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Branches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Branches/Export.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoZXNcRXhwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Branches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmNoZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Candidates/AllCandidatesExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xBbGxDYW5kaWRhdGVzRXhwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Candidates/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Candidates/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Candidates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Candidates/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Candidates/Export.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xFeHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Candidates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/AllEmployeeExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEFsbEVtcGxveWVlRXhwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Export.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEV4cG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Sicks/AllSIckExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFNpY2tzXEFsbFNJY2tFeHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Sicks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFNpY2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Sicks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFNpY2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Sicks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFNpY2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Sicks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFNpY2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Sicks/Export.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFNpY2tzXEV4cG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Sicks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFNpY2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Vacations/AllVacationExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFZhY2F0aW9uc1xBbGxWYWNhdGlvbkV4cG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Vacations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFZhY2F0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Vacations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFZhY2F0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Vacations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFZhY2F0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Vacations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFZhY2F0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Vacations/Export.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFZhY2F0aW9uc1xFeHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Employees/Vacations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVzXFZhY2F0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/LogAndReg/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nQW5kUmVnXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/LogAndReg/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nQW5kUmVnXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/HiringPlan/AllPositionsExport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSGlyaW5nUGxhblxBbGxQb3NpdGlvbnNFeHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/HiringPlan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSGlyaW5nUGxhblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/HiringPlan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSGlyaW5nUGxhblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/HiringPlan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSGlyaW5nUGxhblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/HiringPlan/Export.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSGlyaW5nUGxhblxFeHBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/HiringPlan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSGlyaW5nUGxhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/HiringPlan/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSGlyaW5nUGxhblxSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/View/Positions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1xQb3NpdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/Diplom/AutEmplAcc/AutEmplAcc/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fqkmwx1e2f

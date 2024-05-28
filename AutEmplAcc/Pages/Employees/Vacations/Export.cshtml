@@ -1,0 +1,22 @@
+﻿@page
+@model AutEmplAcc.Pages.Vacations.ExportModel
+@{
+}
+
+<h1>Экспорт отчета в Word</h1>
+
+<dl class="row">
+    <dt class="col-sm-2">Сотрудник</dt>
+    <dd class="col-sm-10">@Model.Vacation.Employee.Candidate.FirstName @Model.Vacation.Employee.Candidate.LastName</dd>
+    <dt class="col-sm-2">Начало отпуска</dt>
+    <dd class="col-sm-10">@Model.Vacation.StartDate.ToShortDateString()</dd>
+    <dt class="col-sm-2">Конец отпуска</dt>
+    <dd class="col-sm-10">@Model.Vacation.EndDate.ToShortDateString()</dd>
+    <dt class="col-sm-2">Тип отпуска</dt>
+    <dd class="col-sm-10">@Model.Vacation.Type</dd>
+</dl>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Экспортировать в Word</button>
+</form>

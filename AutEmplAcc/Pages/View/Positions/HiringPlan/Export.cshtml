@@ -1,0 +1,27 @@
+﻿@page 
+@model AutEmplAcc.Pages.View.Positions.HiringPlan.ExportModel
+@{
+}
+<h1>Экспорт отчета в Word</h1>
+
+<dl class="row">
+    <dt class="col-sm-2">Название должности</dt>
+    <dd class="col-sm-10">@Model.Position.Name</dd>
+    <dt class="col-sm-2">Ставка оплаты</dt>
+    <dd class="col-sm-10">@Model.Position.HourlyRate</dd>
+    <dt class="col-sm-2">Цель набора</dt>
+    <dd class="col-sm-10">@Model.Position.HiringTarget</dd>
+    <dt class="col-sm-2">Дата начала</dt>
+    <dd class="col-sm-10">@Model.Position.HiringStartDate.ToShortDateString()</dd>
+    <dt class="col-sm-2">Дата окончания</dt>
+    <dd class="col-sm-10">@Model.Position.HiringEndDate.ToShortDateString()</dd>
+    <dt class="col-sm-2">Текущее количество сотрудников</dt>
+    <dd class="col-sm-10">@Model.Position.Employees.Count</dd>
+    <dt class="col-sm-2">Остаток от цели</dt>
+    <dd class="col-sm-10">@(Model.Position.HiringTarget - Model.Position.Employees.Count)</dd>
+</dl>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Экспортировать в Word</button>
+</form>

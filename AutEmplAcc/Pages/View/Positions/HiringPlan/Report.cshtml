@@ -1,0 +1,38 @@
+﻿@page
+@model AutEmplAcc.Pages.View.Positions.HiringPlan.ReportModel
+@{
+}
+<div class="print-container">
+    <h1>Отчет по плану набора</h1>
+
+    <h2>@Model.Position.Name</h2>
+
+    <dl class="row">
+        <dt class="col-sm-2">Ставка оплаты</dt>
+        <dd class="col-sm-10">@Model.Position.HourlyRate</dd>
+        <dt class="col-sm-2">Цель набора</dt>
+        <dd class="col-sm-10">@Model.Position.HiringTarget</dd>
+        <dt class="col-sm-2">Дата начала</dt>
+        <dd class="col-sm-10">@Model.Position.HiringStartDate.ToShortDateString()</dd>
+        <dt class="col-sm-2">Дата окончания</dt>
+        <dd class="col-sm-10">@Model.Position.HiringEndDate.ToShortDateString()</dd>
+        <dt class="col-sm-2">Текущее количество сотрудников</dt>
+        <dd class="col-sm-10">@Model.CurrentEmployeesCount</dd>
+        <dt class="col-sm-2">Остаток от цели</dt>
+        <dd class="col-sm-10">@Model.RemainingTarget</dd>
+    </dl>
+
+    @if (Model.IsHiringCompleted)
+    {
+        <h3>Набор завершен!</h3>
+    }
+    else
+    {
+        <h3>Набор продолжается.</h3>
+    }
+
+</div>
+<button onclick="window.print()">Печать</button>
+<p>
+<a asp-page="./Export" asp-route-id="@Model.Position.Id" class="hidden-print">Экспортировать в Word</a>
+</p>

@@ -1,0 +1,80 @@
+﻿@page
+@model AutEmplAcc.Pages.Candidates.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Candidate</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Candidate.Id" />
+            <div class="form-group">
+                <label asp-for="Candidate.FirstName" class="control-label"></label>
+                <input asp-for="Candidate.FirstName" class="form-control" />
+                <span asp-validation-for="Candidate.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.LastName" class="control-label"></label>
+                <input asp-for="Candidate.LastName" class="form-control" />
+                <span asp-validation-for="Candidate.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.Patronymic" class="control-label"></label>
+                <input asp-for="Candidate.Patronymic" class="form-control" />
+                <span asp-validation-for="Candidate.Patronymic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.DateOfBirth" class="control-label"></label>
+                <input asp-for="Candidate.DateOfBirth" class="form-control" />
+                <span asp-validation-for="Candidate.DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.PhoneNumber" class="control-label"></label>
+                <input asp-for="Candidate.PhoneNumber" class="form-control" />
+                <span asp-validation-for="Candidate.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.Address" class="control-label"></label>
+                <input asp-for="Candidate.Address" class="form-control" />
+                <span asp-validation-for="Candidate.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.Email" class="control-label"></label>
+                <input asp-for="Candidate.Email" class="form-control" />
+                <span asp-validation-for="Candidate.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.Citizenship" class="control-label"></label>
+                <input asp-for="Candidate.Citizenship" class="form-control" />
+                <span asp-validation-for="Candidate.Citizenship" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Candidate.HasServed" /> @Html.DisplayNameFor(model => model.Candidate.HasServed)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Candidate.MilitaryTicketNumber" class="control-label"></label>
+                <input asp-for="Candidate.MilitaryTicketNumber" class="form-control" />
+                <span asp-validation-for="Candidate.MilitaryTicketNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

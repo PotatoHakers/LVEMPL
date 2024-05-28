@@ -1,0 +1,29 @@
+﻿@page
+@model AutEmplAcc.Pages.View.Positions.HiringPlan.DeleteModel
+@{
+}
+<h1>Удаление плана набора</h1>
+
+<h2>Вы уверены, что хотите удалить этот план набора?</h2>
+
+<div>
+    <h4>@Model.Position.Name</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Название должности</dt>
+        <dd class="col-sm-10">@Model.Position.Name</dd>
+        <dt class="col-sm-2">Ставка оплаты</dt>
+        <dd class="col-sm-10">@Model.Position.HourlyRate</dd>
+        <dt class="col-sm-2">Цель набора</dt>
+        <dd class="col-sm-10">@Model.Position.HiringTarget</dd>
+        <dt class="col-sm-2">Дата начала</dt>
+        <dd class="col-sm-10">@Model.Position.HiringStartDate.ToShortDateString()</dd>
+        <dt class="col-sm-2">Дата окончания</dt>
+        <dd class="col-sm-10">@Model.Position.HiringEndDate.ToShortDateString()</dd>
+    </dl>
+</div>
+<form method="post">
+    <input type="hidden" asp-for="Position.Id" />
+    <input type="submit" value="Удалить" class="btn btn-danger" />
+    <a asp-page="./Index">Отмена</a>
+</form>
